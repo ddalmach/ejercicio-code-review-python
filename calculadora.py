@@ -1,4 +1,4 @@
-
+#Respetar la nomenclatura
 class calculadora:
 
     def menu(self):
@@ -18,26 +18,26 @@ class calculadora:
         self.valor=int(self.menu())
 
         if self.valor==1:
-            self.sumar()
+            self.add()
         if self.valor == 2:
-            self.restar()
+            self.substract()
         if self.valor == 3:
-            self.multiplicar()
+            self.multiply()
         if self.valor == 4:
-            self.dividir()
+            self.divide()
 
-    def sumar(self):
+    def add(self):
         suma=self.valor1+self.valor2
         print("La suma es",suma)
 
-    def restar(self):
+    def substract(self):
         resta=self.valor1-self.valor2
         print("La rersta es",resta)
 
-    def multiplicar(self):
+    def multiply(self):
         multi=self.valor1*self.valor2
         print("El producto es",multi)
-
-    def dividir(self):
+# no se esta controlando la división para 0
+    def divide(self):
         divi=self.valor1/self.valor2
         print("La division es",divi)
