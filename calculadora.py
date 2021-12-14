@@ -2,6 +2,7 @@
 class calculadora:
 
     def menu(self):
+        print("-----------------------------")
         print("**Ha elegido calculadora**")
         print("Que transaccion desea realizar:")
         print("1. Suma")
