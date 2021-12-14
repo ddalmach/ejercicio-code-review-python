@@ -13,6 +13,8 @@ class numerosPrimo:
         self.obtener_primo()
         self.sumar_primos()
 
+ 
+# Call variables with complete names
     def obtener_primo(self):
         array_primos = []
         if self.n > 0:
